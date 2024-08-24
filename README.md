@@ -1,6 +1,7 @@
 # Image Stitching for Panorama Creation
 
 This project implements a comprehensive pipeline to stitch multiple images into a seamless panoramic image. The process involves detecting key points, extracting descriptors, matching features, estimating homography, and finally warping and blending the images.
+
 ![image](https://github.com/user-attachments/assets/fc733939-64cb-4a0e-b9c0-66b3ecdc1f0d)
 ![image](https://github.com/user-attachments/assets/8ac54f33-8fa5-4a6e-b972-227e02fc7446)
 ![image](https://github.com/user-attachments/assets/d5625371-eda7-43c9-97ce-635d8c6ea203)
@@ -24,7 +25,9 @@ This project implements a comprehensive pipeline to stitch multiple images into 
 
 1. **Image Load and Conversion**: Images are loaded and converted to grayscale.
 2. **Feature Detection and Visualization**: Detects and visualizes key points in images.
+
 ![image](https://github.com/user-attachments/assets/78044e96-3725-4236-a732-df770f2926fc)
+
 3. **Feature Matching and Homography Calculation**: Matches key points and computes homography matrices.
 4. **Image Warping and Blending**:
    - **Model 1 (Gradient Blending with Library Function)**: Warps and blends images using a direct library function.
