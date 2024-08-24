@@ -26,7 +26,7 @@ This project implements a comprehensive pipeline to stitch multiple images into 
 1. **Image Load and Conversion**: Images are loaded and converted to grayscale.
 2. **Feature Detection and Visualization**: Detects and visualizes key points in images.
 
-![image](https://github.com/user-attachments/assets/78044e96-3725-4236-a732-df770f2926fc)
+   ![image](https://github.com/user-attachments/assets/78044e96-3725-4236-a732-df770f2926fc)
 
 3. **Feature Matching and Homography Calculation**: Matches key points and computes homography matrices.
 4. **Image Warping and Blending**:
